@@ -1,0 +1,23 @@
+keys:
+  - &zsien-pgp D912AF695104A14F54D99A7CEEED5DB57C74A06A
+  - &zsien-age age1dz0dncaxxker59ne3kyavth9ttqe25ngcgtv432f4dqlpfgux3jqygw97m
+  - &zsien-ut-pgp 14e7a93552a1ea7c67f0c1c9329f1bcba2465a5e
+  - &zsien-ut-age age1u4g895mhzm6kykf09r0qvhxnlyzcchr0dh9p9xgsh5af6hupjsvq9j5q0p
+
+creation_rules:
+  - path_regex: secrets/common.yaml
+    key_groups:
+    - pgp:
+      - *zsien-pgp
+      - *zsien-ut-pgp
+    - age:
+      - *zsien-age
+      - *zsien-ut-age
+  - path_regex: secrets/zsien-ut.yaml
+    key_groups:
+    - pgp:
+      - *zsien-pgp
+      - *zsien-ut-pgp
+    - age:
+      - *zsien-age
+      - *zsien-ut-age
