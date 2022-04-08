@@ -84,14 +84,14 @@
       options = [ "zfsutil" ];
     };
 
-  fileSystems."/root" =
-    { device = "dpool/DATA/root";
+  fileSystems."/home" =
+    { device = "dpool/DATA/home";
       fsType = "zfs";
       options = [ "zfsutil" ];
     };
 
-  fileSystems."/home" =
-    { device = "dpool/DATA/home";
+  fileSystems."/root" =
+    { device = "dpool/DATA/home/root";
       fsType = "zfs";
       options = [ "zfsutil" ];
     };
