@@ -128,7 +128,11 @@
   ];
 
   systemd.services."systemd-nspawn@uos-eagle-1040".requires = [ "libvirtd.service" ];
+  systemd.services."systemd-nspawn@uos-eagle-1040".after= [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1042".requires = [ "libvirtd.service" ];
+  systemd.services."systemd-nspawn@uos-eagle-1042".after = [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1043".requires = [ "libvirtd.service" ];
+  systemd.services."systemd-nspawn@uos-eagle-1043".after = [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1050".requires = [ "libvirtd.service" ];
+  systemd.services."systemd-nspawn@uos-eagle-1050".after = [ "libvirtd.service" ];
 }
