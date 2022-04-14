@@ -172,8 +172,8 @@
       {
         name = "gitlens";
         publisher = "eamodio";
-        version = "12.0.5";
-        sha256 = "0zfawv9nn88x8m30h7ryax0c7p68najl23a51r88a70hqppzxshw";
+        version = "12.0.6";
+        sha256 = "1d7gzxsyxrhvvx2md6gbcwiawd8f3jarxfbv2qhj7xl1phd7zja3";
       }
       {
         name = "go";
@@ -184,8 +184,8 @@
       {
         name = "latex-workshop";
         publisher = "James-Yu";
-        version = "8.24.1";
-        sha256 = "075ym4f1ajfaxnpyvqi0jwk3079lng1qnr24hhpw3z2yd433vx4i";
+        version = "8.25.0";
+        sha256 = "1nnxdzwmamyv4lbxmm1wn3fijlpacfcxwvkxqlfy28xw27xbn9a0";
       }
       {
         name = "vscode-clangd";
@@ -208,14 +208,14 @@
       {
         name = "cmake-tools";
         publisher = "ms-vscode";
-        version = "1.11.3";
-        sha256 = "1iarzd0h43hw5ncvl9fw50i67ha7migrs36h7wdrnsrcm8d1sjvl";
+        version = "1.11.9";
+        sha256 = "1camlyxlx8w8fim3dz65fwljx9fnhkb94s840qr8piy7ra6214nq";
       }
       {
         name = "tabnine-vscode";
         publisher = "TabNine";
-        version = "3.5.39";
-        sha256 = "1376xyf62sl25rilbqwrzc2nr5kxhs7m3kh3alhbc28wjlsh3xac";
+        version = "3.5.42";
+        sha256 = "0dhd31262zllzbnqv30yiyr97c3lq9kwvs9na8fb3njv6azyj80l";
       }
       {
         name = "cmake";
