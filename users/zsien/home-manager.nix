@@ -148,8 +148,8 @@
       {
         name = "nix-env-selector";
         publisher = "arrterian";
-        version = "1.0.7";
-        sha256 = "0mralimyzhyp4x9q98x3ck64ifbjqdp8cxcami7clvdvkmf8hxhf";
+        version = "1.0.9";
+        sha256 = "0kdfhkdkffr3cdxmj7llb9g3wqpm13ml75rpkwlg1y0pkxcnlk2f";
       }
       {
         name = "meson";
@@ -202,14 +202,14 @@
       {
         name = "remote-ssh-edit";
         publisher = "ms-vscode-remote";
-        version = "0.78.0";
-        sha256 = "0vfzz6k4hk7m5r6l7hszbf4fwhxq6hxf8f8gimphkc57v4z376ls";
+        version = "0.80.0";
+        sha256 = "0zgrd2909xpr3416cji0ha3yl6gl2ry2f38bvx4lsjfmgik0ic6s";
       }
       {
         name = "cmake-tools";
         publisher = "ms-vscode";
-        version = "1.11.9";
-        sha256 = "1camlyxlx8w8fim3dz65fwljx9fnhkb94s840qr8piy7ra6214nq";
+        version = "1.11.11";
+        sha256 = "1dgzs7mn0ipcm4xavyn15s3x7r38w01s1w8z64jqwy6hsw8aqaws";
       }
       {
         name = "tabnine-vscode";
