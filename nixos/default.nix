@@ -87,9 +87,10 @@
     obs-studio
   ];
 
-  environment.gnome.excludePackages = with pkgs; [
+  environment.gnome.excludePackages = with pkgs.gnome; [
     epiphany
-    ibus
+    gnome-software
+    pkgs.ibus
   ];
 
   environment.variables = {
