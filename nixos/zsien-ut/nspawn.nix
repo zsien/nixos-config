@@ -46,6 +46,23 @@
     };
   };
 
+  systemd.nspawn."uos-eagle-1022" = {
+    enable = true;
+    execConfig = {
+      PrivateUsers = false;
+    };
+
+    filesConfig = {
+      Bind = [
+        /home/uos
+      ];
+    };
+
+    networkConfig = {
+      Bridge = "virbr0";
+    };
+  };
+
   systemd.nspawn."uos-eagle-1040" = {
     enable = true;
     execConfig = {
@@ -120,6 +137,7 @@
       allowSubstitutes = false;
     } ''
       mkdir -p $out/etc/systemd/system/
+      ln -s ${config.systemd.package}/example/systemd/system/systemd-nspawn@.service $out/etc/systemd/system/systemd-nspawn@uos-eagle-1022.service
       ln -s ${config.systemd.package}/example/systemd/system/systemd-nspawn@.service $out/etc/systemd/system/systemd-nspawn@uos-eagle-1040.service
       ln -s ${config.systemd.package}/example/systemd/system/systemd-nspawn@.service $out/etc/systemd/system/systemd-nspawn@uos-eagle-1042.service
       ln -s ${config.systemd.package}/example/systemd/system/systemd-nspawn@.service $out/etc/systemd/system/systemd-nspawn@uos-eagle-1043.service
@@ -127,6 +145,8 @@
     '')
   ];
 
+  systemd.services."systemd-nspawn@uos-eagle-1022".requires = [ "libvirtd.service" ];
+  systemd.services."systemd-nspawn@uos-eagle-1022".after= [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1040".requires = [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1040".after= [ "libvirtd.service" ];
   systemd.services."systemd-nspawn@uos-eagle-1042".requires = [ "libvirtd.service" ];
