@@ -127,7 +127,7 @@ in {
 
       peers = [
         {
-          publicKey = "TbkjTv7JVtHzHr0XF6v8nEXtd3B/tsLePmUW81/62DE=";
+          publicKey = "n3op79RkVIlL9HEfJho2z8FVfVE5COAxgn69NDsk1w0=";
           allowedIPs = ["0.0.0.0/0"];
           endpoint = "127.0.0.1:52820";
           persistentKeepalive = 25;
