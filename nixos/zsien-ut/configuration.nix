@@ -55,6 +55,7 @@
     rustc
     cargo
     dfeet
+    gnomeExtensions.allow-locked-remote-desktop
     texlive.combined.scheme-full
     plantuml
     unzip
