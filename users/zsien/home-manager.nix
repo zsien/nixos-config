@@ -178,8 +178,8 @@
       {
         name = "go";
         publisher = "golang";
-        version = "0.32.0";
-        sha256 = "0a3pmpmmr8gd0p8zw984a73cp2yyi4lvz0s03msvkrxmn5k9xhis";
+        version = "0.33.0";
+        sha256 = "1wd9zg4jnn7y75pjqhrxm4g89i15gff69hsxy7y5i6njid0x3x0w";
       }
       {
         name = "latex-workshop";
@@ -190,8 +190,8 @@
       {
         name = "vscode-clangd";
         publisher = "llvm-vs-code-extensions";
-        version = "0.1.15";
-        sha256 = "0skasnc490wp0l5xzpdmwdzjr4qiy63kg2qi27060m5yqkq3h8xn";
+        version = "0.1.17";
+        sha256 = "1vgk4xsdbx0v6sy09wkb63qz6i64n6qcmpiy49qgh2xybskrrzvf";
       }
       {
         name = "remote-ssh";
@@ -208,14 +208,14 @@
       {
         name = "cmake-tools";
         publisher = "ms-vscode";
-        version = "1.11.11";
-        sha256 = "1dgzs7mn0ipcm4xavyn15s3x7r38w01s1w8z64jqwy6hsw8aqaws";
+        version = "1.11.15";
+        sha256 = "0gb2vdls0g7jhrc53z4qlddi27kj3cz7d3pgszlzf82w2l9cya1w";
       }
       {
         name = "tabnine-vscode";
         publisher = "TabNine";
-        version = "3.5.42";
-        sha256 = "0dhd31262zllzbnqv30yiyr97c3lq9kwvs9na8fb3njv6azyj80l";
+        version = "3.5.45";
+        sha256 = "0biyc7wc9nnnr3jax7d2vjnr7yp46hlyy5fm7kqdlgm6hqn4361b";
       }
       {
         name = "cmake";
