@@ -5,6 +5,17 @@
 { config, pkgs, ... }:
 
 {
+  systemd.nspawn."debian-sid" = {
+    enable = true;
+    execConfig = {
+      PrivateUsers = false;
+    };
+
+    networkConfig = {
+      VirtualEthernet = false;
+    };
+  };
+
   systemd.nspawn."deepin-apps" = {
     enable = true;
     execConfig = {
