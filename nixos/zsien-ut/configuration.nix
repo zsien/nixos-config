@@ -5,8 +5,7 @@
 { config, pkgs, lib, ... }:
 
 {
-  #boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
-  boot.kernelPackages = pkgs.linuxPackages_5_16;
+  boot.kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
   boot.supportedFilesystems = [ "zfs" ];
   boot.zfs.devNodes = "/dev/";
   boot.zfs.extraPools = [ "dpool" ];
