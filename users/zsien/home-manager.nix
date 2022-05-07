@@ -184,8 +184,8 @@
       {
         name = "latex-workshop";
         publisher = "James-Yu";
-        version = "8.25.0";
-        sha256 = "1nnxdzwmamyv4lbxmm1wn3fijlpacfcxwvkxqlfy28xw27xbn9a0";
+        version = "8.26.0";
+        sha256 = "1isgrxr71ylqzhg133mknkr57pf2jgx25lx17qsn5304ccs1n8b4";
       }
       {
         name = "vscode-clangd";
@@ -208,8 +208,8 @@
       {
         name = "cmake-tools";
         publisher = "ms-vscode";
-        version = "1.11.15";
-        sha256 = "0gb2vdls0g7jhrc53z4qlddi27kj3cz7d3pgszlzf82w2l9cya1w";
+        version = "1.11.16";
+        sha256 = "01mh063m7zxq6lics86jnmakixalb3mw8dhnfqybypyih9v20fjs";
       }
       {
         name = "tabnine-vscode";
