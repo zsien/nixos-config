@@ -196,8 +196,8 @@
       {
         name = "remote-ssh";
         publisher = "ms-vscode-remote";
-        version = "0.78.0";
-        sha256 = "1743rwmbqw2mi2dfy3r9qc6qkn42pjchj5cl8ayqvwwrrrvvvpxx";
+        version = "0.80.0";
+        sha256 = "1n2lgyw77wqck93grd53k331xmgwirrl2hsr5mvlamshhmiwvi73";
       }
       {
         name = "remote-ssh-edit";
@@ -208,14 +208,14 @@
       {
         name = "cmake-tools";
         publisher = "ms-vscode";
-        version = "1.11.16";
-        sha256 = "01mh063m7zxq6lics86jnmakixalb3mw8dhnfqybypyih9v20fjs";
+        version = "1.11.19";
+        sha256 = "157fcvp65p0ngz914d58nr05wbyg1yyh1rakliwghwj5x9dlkcai";
       }
       {
         name = "tabnine-vscode";
         publisher = "TabNine";
-        version = "3.5.45";
-        sha256 = "0biyc7wc9nnnr3jax7d2vjnr7yp46hlyy5fm7kqdlgm6hqn4361b";
+        version = "3.5.47";
+        sha256 = "1p76jc1dijz41bw0is1wzg9xylbngklrxczvmg2k67k8nspgln33";
       }
       {
         name = "cmake";
